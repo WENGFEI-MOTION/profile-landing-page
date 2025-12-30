@@ -68,4 +68,21 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // Handle Client Logo Fallbacks
+    document.querySelectorAll('.client-list img').forEach(img => {
+        // Check if image is already broken (for cached fast-failing)
+        if (img.complete && img.naturalHeight === 0) {
+            handleImageError(img);
+        }
+
+        img.onerror = () => handleImageError(img);
+    });
+
+    function handleImageError(img) {
+        const span = document.createElement('span');
+        span.className = 'client-fallback';
+        span.textContent = img.alt || 'Client';
+        img.replaceWith(span);
+    }
 });

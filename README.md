@@ -6,7 +6,7 @@ This is the professional profile and portfolio website for **Weng Fei Lee**, a C
 - **Modern Design**: Glassmorphism and vibrant color palette.
 - **Responsive Layout**: Works seamlessly across mobile, tablet, and desktop.
 - **Dynamic Animations**: Scroll-triggered animations and marquee effects.
-- **Interactive Portfolio**: Showcasing key projects and professional trajectory.
+- **Interactive Portfolio**: Focused on professional trajectory, key milestones, and project showcases.
 
 ## 🛠️ Built With
 - **HTML5**: Semantic structure.
