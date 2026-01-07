@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const playBtn = document.querySelector('.hero-media-pill');
     const closeBtn = document.querySelector('.close-lightbox');
     const videoIframe = document.getElementById('heroVideo');
-    const youtubeUrl = "https://www.youtube.com/embed/1_LcYpzzA2E?si=6yN6B20vQyn2ygU1&autoplay=1";
+    const youtubeUrl = "https://www.youtube.com/embed/38e5_JDtsWk?autoplay=1";
 
     if (playBtn && lightbox) {
         playBtn.addEventListener('click', () => {
